@@ -68,6 +68,12 @@
             bindings = <&kp LC(F20)>;
             key-positions = <2 3 4>;
         };
+
+        combo_middle_click {
+            bindings = <&mkp MCLK>;
+            key-positions = <31 30>;
+            layers = <0 1 4>;
+        };
     };
 
     behaviors {
@@ -138,14 +144,14 @@
 
         qwerty {
             bindings = <
-&kp GRAVE       &kp Q           &kp W           &kp E         &kp R                 &kp T                              &kp Y      &kp U               &kp I          &kp O            &kp P                   &kp BSPC
-&kp ESC         &hm LEFT_WIN A  &hm LEFT_ALT S  &hm LCTRL D   &hm LEFT_SHIFT F      &lt 4 G                            &lt 4 H    &hm RIGHT_SHIFT J   &hm RCTRL K    &hm RIGHT_ALT L  &hm LEFT_GUI SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z           &lt 6 X         &lt 5 C       &kp V                 &kp B      &mkp LCLK  &mkp RCLK    &kp N      &kp M               &lt 2 COMMA    &lt 7 DOT        &kp SLASH               &kp DELETE
-                                                &kp LEFT_ALT  &mt LCTRL UNDERSCORE  &kp SPACE  &lt 1 TAB  &lt 2 ENTER  &kp SPACE  &mt LEFT_GUI MINUS  &kp RIGHT_ALT  &kp C_MUTE
+&kp GRAVE       &kp Q           &kp W           &kp E                &kp R                 &kp T                              &kp Y      &kp U               &kp I                &kp O            &kp P                   &kp BSPC
+&kp ESC         &hm LEFT_WIN A  &hm LEFT_ALT S  &hm LCTRL D          &hm LEFT_SHIFT F      &lt 4 G                            &lt 4 H    &hm RIGHT_SHIFT J   &hm RCTRL K          &hm RIGHT_ALT L  &hm LEFT_GUI SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z           &lt 6 X         &lt 5 C              &kp V                 &kp B      &mkp LCLK  &mkp RCLK    &kp N      &kp M               &lt 2 COMMA          &lt 7 DOT        &kp SLASH               &kp DELETE
+                                                &mt LEFT_ALT DOLLAR  &mt LCTRL UNDERSCORE  &kp SPACE  &lt 1 TAB  &lt 2 ENTER  &kp SPACE  &mt LEFT_GUI MINUS  &mt RIGHT_ALT EQUAL  &kp C_MUTE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
-            label = "cocot46plus";
+            label = "cocot46p";
         };
 
         guide {
