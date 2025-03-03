@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: cocot46p}
 layers:
-  cocot46plus:
+  cocot46p:
   - {t: '`', s: '~'}
   - Q
   - W
@@ -39,14 +39,14 @@ layers:
   - {t: ., h: F123, s: '>'}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: $, h: '$$mdi:apple-keyboard-option$$'}
   - {t: _, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-tab$$', h: HJKL}
   - {t: '$$mdi:keyboard-return$$', h: '!@#$'}
   - $$mdi:keyboard-space$$
   - {t: '-', h: '$$mdi:apple-keyboard-command$$', s: _}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - $$mdi:volume-off$$
   HJKL:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -407,3 +407,6 @@ combos:
   k: Ctl+F19
 - p: [2, 3, 4]
   k: Ctl+F20
+- p: [31, 30]
+  k: $$mdi:mouse-scroll-wheel$$
+  l: [cocot46p, HJKL, Snipe]
