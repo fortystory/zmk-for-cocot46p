@@ -38,23 +38,23 @@
         };
 
         combo_left_bracket_quotation {
-            bindings = <&left_bracket_and_quotation>;
+            bindings = <&macro_bracket_and_quotation>;
             key-positions = <14 16>;
         };
 
         combo_quotation_right_bracket {
-            bindings = <&quotation_and_right_bracket>;
+            bindings = <&macro_quotation_and_bracket>;
             key-positions = <19 21>;
         };
 
         combo_arraw {
-            bindings = <&arraw>;
+            bindings = <&macro_arraw>;
             key-positions = <16 15>;
             layers = <2>;
         };
 
         combo_arraw_eq {
-            bindings = <&arraw_eq>;
+            bindings = <&macro_arraw_eq>;
             key-positions = <4 3>;
             layers = <2>;
         };
@@ -73,6 +73,18 @@
             bindings = <&mkp MCLK>;
             key-positions = <31 30>;
             layers = <0 1 4>;
+        };
+
+        combo_s_e {
+            bindings = <&macro_se>;
+            key-positions = <14 3>;
+            layers = <0>;
+        };
+
+        combo_l_i {
+            bindings = <&macro_li>;
+            key-positions = <21 8>;
+            layers = <0>;
         };
     };
 
@@ -110,32 +122,46 @@
     };
 
     macros {
-        left_bracket_and_quotation: left_bracket_and_quotation {
+        macro_bracket_and_quotation: macro_bracket_and_quotation {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET &kp SQT>;
-            label = "LEFT_BRACKET_AND_QUOTATION";
+            label = "MACRO_BRACKET_AND_QUOTATION";
         };
 
-        quotation_and_right_bracket: quotation_and_right_bracket {
+        macro_quotation_and_bracket: macro_quotation_and_bracket {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp SQT &kp RIGHT_BRACKET>;
-            label = "QUOTATION_AND_RIGHT_BRACKET";
+            label = "MACRO_QUOTATION_AND_BRACKET";
         };
 
-        arraw: arraw {
+        macro_arraw: macro_arraw {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp GREATER_THAN>;
-            label = "ARRAW";
+            label = "MACRO_ARRAW";
         };
 
-        arraw_eq: arraw_eq {
+        macro_arraw_eq: macro_arraw_eq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp EQUAL &kp GREATER_THAN>;
-            label = "ARRAW_EQ";
+            label = "MACRO_ARRAW_EQ";
+        };
+
+        macro_se: macro_se {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp E>;
+            label = "MACRO_SE";
+        };
+
+        macro_li: macro_li {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp I>;
+            label = "MACRO_LI";
         };
     };
 
@@ -146,8 +172,8 @@
             bindings = <
 &kp GRAVE       &kp Q           &kp W           &kp E         &kp R                 &kp T                              &kp Y      &kp U               &kp I        &kp O            &kp P                   &kp BSPC
 &kp ESC         &hm LEFT_WIN A  &hm LEFT_ALT S  &hm LCTRL D   &hm LEFT_SHIFT F      &lt 4 G                            &lt 4 H    &hm RIGHT_SHIFT J   &hm RCTRL K  &hm RIGHT_ALT L  &hm LEFT_GUI SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z           &kp X           &lt 5 C       &kp V                 &kp B      &mkp LCLK  &mkp RCLK    &kp N      &kp M               &kp COMMA    &kp DOT          &kp SLASH               &kp DELETE
-                                                &lt 6 DOLLAR  &mt LCTRL UNDERSCORE  &kp SPACE  &lt 1 TAB  &lt 2 ENTER  &kp SPACE  &mt LEFT_GUI MINUS  &lt 7 EQUAL  &kp C_MUTE
+&kp LEFT_SHIFT  &kp Z           &kp X           &kp C         &kp V                 &kp B      &mkp LCLK  &mkp RCLK    &kp N      &kp M               &kp COMMA    &kp DOT          &kp SLASH               &kp DELETE
+                                                &lt 5 DOLLAR  &mt LCTRL UNDERSCORE  &kp SPACE  &lt 1 TAB  &lt 2 ENTER  &kp SPACE  &mt LEFT_GUI MINUS  &lt 6 EQUAL  &kp C_MUTE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -163,17 +189,19 @@
             >;
 
             label = "HJKL";
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
         };
 
         symbols {
             bindings = <
-&kp GRAVE  &kp AMPERSAND    &kp AT_SIGN   &kp POUND  &kp DOLLAR            &kp PERCENT                   &none  &none      &none      &none     &none     &kp BSPC
-&kp ESC    &kp EXCLAMATION  &kp ASTERISK  &kp MINUS  &kp EQUAL             &kp TILDE                     &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &kp ENTER
-&kp LSHFT  &kp CARET        &kp FSLH      &kp PIPE   &kp NON_US_BACKSLASH  &kp UNDERSCORE  &none  &none  &none  &none      &none      &none     &none     &kp DEL
-                                          &none      &none                 &none           &none  &none  &none  &none      &none      &none
+&kp GRAVE  &kp AMPERSAND    &kp AT_SIGN   &kp POUND  &kp DOLLAR            &kp PERCENT                   &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &none     &kp BSPC
+&kp ESC    &kp EXCLAMATION  &kp ASTERISK  &kp MINUS  &kp EQUAL             &kp TILDE                     &none           &kp RSHFT             &kp RCTRL              &kp RALT          &kp RGUI  &kp ENTER
+&kp LSHFT  &kp CARET        &kp FSLH      &kp PIPE   &kp NON_US_BACKSLASH  &kp UNDERSCORE  &none  &none  &kp LESS_THAN   &kp LBKT              &kp RBKT               &kp GREATER_THAN  &none     &kp DEL
+                                          &none      &none                 &none           &none  &none  &none           &none                 &none                  &none
             >;
 
             label = "!@#$";
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
         };
 
         Setting {
@@ -196,17 +224,6 @@
             >;
 
             label = "Snipe";
-        };
-
-        brackets {
-            bindings = <
-&none  &none  &none  &none  &none  &none                &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &none  &kp BACKSPACE
-&none  &none  &none  &none  &none  &none                &kp LESS_THAN   &kp LBKT              &kp RBKT               &kp GREATER_THAN  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none           &none                 &none                  &none             &none  &kp DEL
-                     &none  &none  &none  &none  &none  &none           &none                 &none                  &none
-            >;
-
-            label = "<[({})]>";
         };
 
         number {
