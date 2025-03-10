@@ -86,6 +86,16 @@
             key-positions = <21 8>;
             layers = <0>;
         };
+
+        combo_fj {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <16 19>;
+        };
+
+        combo_mh {
+            bindings = <&kp COLON>;
+            key-positions = <16 22>;
+        };
     };
 
     behaviors {
