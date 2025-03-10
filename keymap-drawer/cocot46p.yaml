@@ -368,3 +368,7 @@ combos:
 - p: [21, 8]
   k: '&macro_li'
   l: [cocot46p]
+- p: [16, 19]
+  k: Gui+$$mdi:keyboard-space$$
+- p: [16, 22]
+  k: ':'
