@@ -195,11 +195,11 @@
 &none    &none     &none     &none      &none      &none                           &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &none              &kp BACKSPACE
 &kp ESC  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none                           &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT_ARROW   &mt HOME PAGE_UP   &none
 &none    &none     &none     &none      &none      &none      &mkp MB4  &mkp MB5   &kp LESS_THAN   &kp LBKT              &kp RBKT               &kp GREATER_THAN  &mt END PAGE_DOWN  &kp DEL
-                             &none      &none      &kp SPACE  &none     &kp ENTER  &kp SPACE       &none                 &none                  &none
+                             &none      &none      &kp SPACE  &none     &kp ENTER  &kp SPACE       &kp C_PREV            &kp C_NEXT             &kp C_PAUSE
             >;
 
             label = "HJKL";
-            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
+            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
 
         symbols {
