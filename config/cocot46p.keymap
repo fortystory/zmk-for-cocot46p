@@ -204,10 +204,10 @@
 
         symbols {
             bindings = <
-&kp GRAVE  &kp AMPERSAND    &kp AT_SIGN   &kp POUND  &kp DOLLAR            &kp PERCENT                   &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &none     &kp BSPC
-&kp ESC    &kp EXCLAMATION  &kp ASTERISK  &kp MINUS  &kp EQUAL             &kp TILDE                     &none           &kp RSHFT             &kp RCTRL              &kp RALT          &kp RGUI  &kp ENTER
-&kp LSHFT  &kp CARET        &kp FSLH      &kp PIPE   &kp NON_US_BACKSLASH  &kp UNDERSCORE  &none  &none  &kp LESS_THAN   &kp LBKT              &kp RBKT               &kp GREATER_THAN  &none     &kp DEL
-                                          &none      &none                 &none           &none  &none  &none           &none                 &none                  &none
+&kp GRAVE  &kp AMPERSAND    &kp AT_SIGN   &kp POUND  &kp DOLLAR            &kp PERCENT                   &none  &none      &none      &none     &none     &kp BSPC
+&kp ESC    &kp EXCLAMATION  &kp ASTERISK  &kp MINUS  &kp EQUAL             &kp TILDE                     &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &kp ENTER
+&kp LSHFT  &kp CARET        &kp FSLH      &kp PIPE   &kp NON_US_BACKSLASH  &kp UNDERSCORE  &none  &none  &none  &none      &none      &none     &none     &kp DEL
+                                          &none      &none                 &none           &none  &none  &none  &none      &none      &none
             >;
 
             label = "!@#$";
@@ -218,7 +218,7 @@
             bindings = <
 &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &ext_power EP_ON                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
 &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &trans           &trans           &trans           &ext_power EP_OFF                  &trans        &trans        &trans        &trans        &trans        &bt BT_CLR_ALL
-&trans           &trans           &trans           &trans           &trans           &trans             &trans  &trans  &bootloader   &trans        &trans        &trans        &sys_reset    &trans
+&trans           &trans           &trans           &trans           &trans           &bootloader        &trans  &trans  &bootloader   &trans        &trans        &trans        &sys_reset    &trans
                                                    &trans           &trans           &trans             &trans  &trans  &trans        &trans        &trans        &trans
             >;
 
