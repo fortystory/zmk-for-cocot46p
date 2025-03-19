@@ -14,7 +14,7 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
-  - {t: A, h: LEFT WIN}
+  - A
   - {t: S, s: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
@@ -23,7 +23,7 @@ layers:
   - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, s: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -340,7 +340,7 @@ combos:
 - p: [37, 36, 25, 24]
   k: {t: setting, h: toggle}
 - p: [40, 43]
-  k: Gui+$$mdi:keyboard-space$$
+  k: Ctl+$$mdi:keyboard-space$$
 - p: [41, 42]
   k: F8
 - p: [16, 22]
@@ -370,5 +370,3 @@ combos:
   l: [cocot46p]
 - p: [16, 19]
   k: Gui+$$mdi:keyboard-space$$
-- p: [16, 22]
-  k: ':'
