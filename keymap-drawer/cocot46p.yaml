@@ -283,8 +283,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', s: )}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ., s: '>'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -370,3 +370,6 @@ combos:
   l: [cocot46p]
 - p: [16, 19]
   k: Gui+$$mdi:keyboard-space$$
+- p: [39, 44]
+  k: Ctl+F9
+  l: [cocot46p]
