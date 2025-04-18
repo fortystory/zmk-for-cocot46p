@@ -39,14 +39,14 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: $, h: '12345'}
-  - {t: _, h: '$$mdi:apple-keyboard-control$$'}
+  - $
+  - {t: _, h: '12345'}
   - {t: '$$mdi:keyboard-space$$', h: HJKL}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: '!@#$'}
-  - {t: '-', h: '$$mdi:apple-keyboard-command$$', s: _}
-  - {t: '=', h: F123, s: +}
+  - {t: '-', h: F123, s: _}
+  - {t: '=', s: +}
   - $$mdi:volume-off$$
   HJKL:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -242,11 +242,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '12345':
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Q
+  - Ctl+W
+  - Ctl+E
+  - Ctl+R
+  - Ctl+T
   - '*'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -254,11 +254,11 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Ctl+A, h: LEFT WIN}
+  - {t: Ctl+S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: Ctl+D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: Ctl+F, h: '$$mdi:apple-keyboard-shift$$'}
+  - Ctl+G
   - {t: '-', s: _}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -266,11 +266,11 @@ layers:
   - '%'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - KP PLUS
@@ -279,8 +279,8 @@ layers:
   - {t: '3', s: '#'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab$$
   - {t: '0', s: )}
@@ -333,8 +333,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [37, 36, 25, 24]
