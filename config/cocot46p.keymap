@@ -183,10 +183,10 @@
 
         qwerty {
             bindings = <
-&kp GRAVE       &kp Q  &kp W           &kp E         &kp R                 &kp T                              &kp Y        &kp U               &kp I        &kp O            &kp P      &kp BSPC
-&kp ESC         &kp A  &hm LEFT_ALT S  &hm LCTRL D   &hm LEFT_SHIFT F      &lt 4 G                            &lt 4 H      &hm RIGHT_SHIFT J   &hm RCTRL K  &hm RIGHT_ALT L  &kp SEMI   &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X           &kp C         &kp V                 &kp B        &mkp LCLK  &mkp RCLK  &kp N        &kp M               &kp COMMA    &kp DOT          &kp SLASH  &kp DELETE
-                                       &lt 5 DOLLAR  &mt LCTRL UNDERSCORE  &lt 1 SPACE  &kp TAB    &kp ENTER  &lt 2 SPACE  &mt LEFT_GUI MINUS  &lt 6 EQUAL  &kp C_MUTE
+&kp GRAVE       &kp Q  &kp W           &kp E        &kp R             &kp T                              &kp Y        &kp U              &kp I        &kp O            &kp P      &kp BSPC
+&kp ESC         &kp A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &lt 4 G                            &lt 4 H      &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &kp SEMI   &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X           &kp C        &kp V             &kp B        &mkp LCLK  &mkp RCLK  &kp N        &kp M              &kp COMMA    &kp DOT          &kp SLASH  &kp DELETE
+                                       &kp DOLLAR   &lt 5 UNDERSCORE  &lt 1 SPACE  &kp TAB    &kp ENTER  &lt 2 SPACE  &lt 6 MINUS        &kp EQUAL    &kp C_MUTE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -241,10 +241,10 @@
 
         number {
             bindings = <
-&none    &none     &none     &none      &none      &none                   &kp ASTERISK  &kp N7   &kp N8  &kp N9  &kp EQUAL    &kp BSPC
-&kp ESC  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none                   &kp MINUS     &kp N4   &kp N5  &kp N6  &kp PERCENT  &kp ENTER
-&none    &none     &none     &none      &none      &none  &none    &none   &kp KP_PLUS   &kp N1   &kp N2  &kp N3  &kp FSLH     &none
-                             &none      &none      &none  &kp TAB  &kp N0  &none         &kp DOT  &none   &none
+&none    &kp LC(Q)           &kp LC(W)           &kp LC(E)        &kp LC(R)             &kp LC(T)                   &kp ASTERISK  &kp N7   &kp N8  &kp N9  &kp EQUAL    &kp BSPC
+&kp ESC  &hm LEFT_WIN LC(A)  &hm LEFT_ALT LC(S)  &hm LCTRL LC(D)  &hm LEFT_SHIFT LC(F)  &kp LC(G)                   &kp MINUS     &kp N4   &kp N5  &kp N6  &kp PERCENT  &kp ENTER
+&none    &kp LC(Z)           &kp LC(X)           &kp LC(C)        &kp LC(V)             &kp LC(B)  &none    &none   &kp KP_PLUS   &kp N1   &kp N2  &kp N3  &kp FSLH     &none
+                                                 &none            &none                 &none      &kp TAB  &kp N0  &none         &kp DOT  &none   &none
             >;
 
             label = "12345";
