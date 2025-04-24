@@ -373,3 +373,8 @@ combos:
 - p: [39, 44]
   k: Ctl+F9
   l: [cocot46p]
+- p: [15, 40]
+  k: '&macro_d_space'
+  l: [cocot46p]
+- p: [16, 15, 14]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
