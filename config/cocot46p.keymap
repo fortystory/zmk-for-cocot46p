@@ -99,6 +99,17 @@
             key-positions = <39 44>;
             layers = <0>;
         };
+
+        combo_d_space {
+            bindings = <&macro_d_space>;
+            key-positions = <15 40>;
+            layers = <0>;
+        };
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <16 15 14>;
+        };
     };
 
     behaviors {
@@ -175,6 +186,13 @@
             #binding-cells = <0>;
             bindings = <&kp L &kp I>;
             label = "MACRO_LI";
+        };
+
+        macro_d_space: macro_d_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp SPACE>;
+            label = "MACRO_D_SPACE";
         };
     };
 
