@@ -129,11 +129,11 @@ layers:
   - _
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
+  - {t: \, s: '|'}
+  - '|'
+  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -369,7 +369,7 @@ combos:
   k: '&macro_li'
   l: [cocot46p]
 - p: [16, 19]
-  k: Gui+$$mdi:keyboard-space$$
+  k: F21
 - p: [39, 44]
   k: Ctl+F9
   l: [cocot46p]
@@ -378,3 +378,7 @@ combos:
   l: [cocot46p]
 - p: [16, 15, 14]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [43, 16]
+  k: KP EQUAL
+- p: [43, 4]
+  k: $
