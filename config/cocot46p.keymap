@@ -112,7 +112,7 @@
         };
 
         combo_eq {
-            bindings = <&kp KP_EQUAL>;
+            bindings = <&kp EQUAL>;
             key-positions = <43 16>;
         };
 
