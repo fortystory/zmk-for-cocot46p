@@ -90,7 +90,7 @@
         };
 
         combo_fj {
-            bindings = <&kp F21>;
+            bindings = <&kp LS(SPACE)>;
             key-positions = <16 19>;
         };
 
