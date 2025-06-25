@@ -369,7 +369,7 @@ combos:
   k: '&macro_li'
   l: [cocot46p]
 - p: [16, 19]
-  k: F21
+  k: Sft+$$mdi:keyboard-space$$
 - p: [39, 44]
   k: Ctl+F9
   l: [cocot46p]
