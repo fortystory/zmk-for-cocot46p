@@ -379,6 +379,6 @@ combos:
 - p: [16, 15, 14]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [43, 16]
-  k: KP EQUAL
+  k: {t: '=', s: +}
 - p: [43, 4]
   k: $
