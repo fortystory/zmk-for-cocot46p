@@ -35,18 +35,18 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - KP COMMA
+  - KP DOT
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - $
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: _, h: '12345'}
   - {t: '$$mdi:keyboard-space$$', h: HJKL}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: '!@#$'}
   - {t: '-', h: F123, s: _}
-  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   HJKL:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -336,6 +336,54 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  origin:
+  - {t: '`', s: '~'}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-esc$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - .
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - {t: '-', s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-off$$
 combos:
 - p: [37, 36, 25, 24]
   k: {t: setting, h: toggle}
@@ -382,3 +430,33 @@ combos:
   k: {t: '=', s: +}
 - p: [43, 4]
   k: $
+- p: [20, 19]
+  k: {t: '[', s: '{'}
+  l: [cocot46p]
+- p: [20, 21]
+  k: {t: ']', s: '}'}
+  l: [cocot46p]
+- p: [33, 34]
+  k: <
+  l: [cocot46p]
+- p: [34, 35]
+  k: '>'
+  l: [cocot46p]
+- p: [14, 15]
+  k: (
+  l: [cocot46p]
+- p: [15, 16]
+  k: )
+  l: [cocot46p]
+- p: [26, 27]
+  k: '{'
+  l: [cocot46p]
+- p: [27, 28]
+  k: '}'
+  l: [cocot46p]
+- p: [38, 45]
+  k: {t: origin, h: toggle}
+  l: [cocot46p]
+- p: [38, 45]
+  k: {t: cocot46p, h: toggle}
+  l: [origin]
