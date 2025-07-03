@@ -393,10 +393,13 @@ combos:
   k: F8
 - p: [16, 22]
   k: ':'
+  l: [cocot46p]
 - p: [14, 16]
   k: '&macro_bracket_and_quotation'
+  l: [cocot46p]
 - p: [19, 21]
   k: '&macro_quotation_and_bracket'
+  l: [cocot46p]
 - p: [16, 15]
   k: '&macro_arraw'
   l: ['!@#$']
@@ -405,11 +408,13 @@ combos:
   l: ['!@#$']
 - p: [26, 27, 28]
   k: Ctl+F19
+  l: [cocot46p]
 - p: [2, 3, 4]
   k: Ctl+F20
+  l: [cocot46p]
 - p: [31, 30]
   k: $$mdi:mouse-scroll-wheel$$
-  l: [cocot46p, HJKL, Snipe]
+  l: [cocot46p, HJKL, Snipe, origin]
 - p: [14, 3]
   k: '&macro_se'
   l: [cocot46p]
@@ -418,6 +423,7 @@ combos:
   l: [cocot46p]
 - p: [16, 19]
   k: Sft+$$mdi:keyboard-space$$
+  l: [cocot46p]
 - p: [39, 44]
   k: Ctl+F9
   l: [cocot46p]
@@ -426,10 +432,13 @@ combos:
   l: [cocot46p]
 - p: [16, 15, 14]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [cocot46p]
 - p: [43, 16]
   k: {t: '=', s: +}
+  l: [cocot46p]
 - p: [43, 4]
   k: $
+  l: [cocot46p]
 - p: [20, 19]
   k: {t: '[', s: '{'}
   l: [cocot46p]
