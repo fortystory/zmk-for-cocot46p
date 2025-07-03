@@ -37,16 +37,19 @@
         combo_colon {
             bindings = <&kp COLON>;
             key-positions = <16 22>;
+            layers = <0>;
         };
 
         combo_left_bracket_quotation {
             bindings = <&macro_bracket_and_quotation>;
             key-positions = <14 16>;
+            layers = <0>;
         };
 
         combo_quotation_right_bracket {
             bindings = <&macro_quotation_and_bracket>;
             key-positions = <19 21>;
+            layers = <0>;
         };
 
         combo_arraw {
@@ -64,17 +67,19 @@
         combo_ctrl_f19 {
             bindings = <&kp LC(F19)>;
             key-positions = <26 27 28>;
+            layers = <0>;
         };
 
         combo_ctrl_f20 {
             bindings = <&kp LC(F20)>;
             key-positions = <2 3 4>;
+            layers = <0>;
         };
 
         combo_middle_click {
             bindings = <&mkp MCLK>;
             key-positions = <31 30>;
-            layers = <0 1 4>;
+            layers = <0 1 4 7>;
         };
 
         combo_s_e {
@@ -92,6 +97,7 @@
         combo_fj {
             bindings = <&kp LS(SPACE)>;
             key-positions = <16 19>;
+            layers = <0>;
         };
 
         combo_ctrl_f9 {
@@ -109,16 +115,19 @@
         combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <16 15 14>;
+            layers = <0>;
         };
 
         combo_eq {
             bindings = <&kp EQUAL>;
             key-positions = <43 16>;
+            layers = <0>;
         };
 
         combo_dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <43 4>;
+            layers = <0>;
         };
 
         combo_left_square_bracket {
