@@ -35,8 +35,8 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - N
   - M
-  - KP COMMA
-  - KP DOT
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
