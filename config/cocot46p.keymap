@@ -132,13 +132,13 @@
 
         combo_left_square_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <20 19>;
+            key-positions = <7 8>;
             layers = <0>;
         };
 
         combo_right_square_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <20 21>;
+            key-positions = <8 9>;
             layers = <0>;
         };
 
@@ -156,13 +156,13 @@
 
         combo_left_parenthese {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <14 15>;
+            key-positions = <2 3>;
             layers = <0>;
         };
 
         combo_right_parenthese {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
             layers = <0>;
         };
 
