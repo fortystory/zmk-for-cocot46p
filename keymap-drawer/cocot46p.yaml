@@ -469,3 +469,6 @@ combos:
 - p: [38, 45]
   k: {t: cocot46p, h: toggle}
   l: [origin]
+- p: [11, 37, 0, 24]
+  k: $$mdi:power-standby$$
+  l: [cocot46p]
