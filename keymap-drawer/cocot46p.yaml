@@ -389,8 +389,10 @@ combos:
   k: {t: setting, h: toggle}
 - p: [40, 43]
   k: Ctl+$$mdi:keyboard-space$$
+  l: [cocot46p]
 - p: [41, 42]
   k: F8
+  l: [cocot46p]
 - p: [16, 22]
   k: ':'
   l: [cocot46p]
