@@ -170,6 +170,7 @@
             key-positions = <3 4>;
             layers = <0>;
             timeout-ms = <150>;
+            require-prior-idle-ms = <100>;
         };
 
         combo_left_braces {
@@ -196,12 +197,6 @@
             bindings = <&to 0>;
             key-positions = <38 45>;
             layers = <7>;
-        };
-
-        combo-power {
-            bindings = <&kp C_POWER>;
-            key-positions = <11 37 0 24>;
-            layers = <0>;
         };
     };
 
