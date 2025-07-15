@@ -40,7 +40,6 @@
             bindings = <&kp COLON>;
             key-positions = <16 22>;
             layers = <0>;
-            timeout-ms = <250>;
         };
 
         combo_left_bracket_quotation {
