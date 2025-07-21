@@ -388,7 +388,7 @@ combos:
 - p: [37, 36, 25, 24]
   k: {t: setting, h: toggle}
 - p: [40, 43]
-  k: Ctl+$$mdi:keyboard-space$$
+  k: Ctl+F9
   l: [cocot46p]
 - p: [41, 42]
   k: F8
@@ -442,28 +442,28 @@ combos:
   k: $
   l: [cocot46p]
 - p: [7, 8]
-  k: {t: '[', s: '{'}
-  l: [cocot46p]
-- p: [8, 9]
-  k: {t: ']', s: '}'}
-  l: [cocot46p]
-- p: [33, 34]
   k: <
   l: [cocot46p]
-- p: [34, 35]
+- p: [8, 9]
   k: '>'
   l: [cocot46p]
+- p: [33, 34]
+  k: {t: '[', s: '{'}
+  l: [cocot46p]
+- p: [34, 35]
+  k: {t: ']', s: '}'}
+  l: [cocot46p]
 - p: [2, 3]
-  k: (
-  l: [cocot46p]
-- p: [3, 4]
-  k: )
-  l: [cocot46p]
-- p: [26, 27]
   k: '{'
   l: [cocot46p]
-- p: [27, 28]
+- p: [3, 4]
   k: '}'
+  l: [cocot46p]
+- p: [26, 27]
+  k: (
+  l: [cocot46p]
+- p: [27, 28]
+  k: )
   l: [cocot46p]
 - p: [38, 45]
   k: {t: origin, h: toggle}
