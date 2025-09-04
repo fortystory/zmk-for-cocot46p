@@ -441,30 +441,6 @@ combos:
 - p: [43, 4]
   k: $
   l: [cocot46p]
-- p: [7, 8]
-  k: <
-  l: [cocot46p]
-- p: [8, 9]
-  k: '>'
-  l: [cocot46p]
-- p: [33, 34]
-  k: {t: '[', s: '{'}
-  l: [cocot46p]
-- p: [34, 35]
-  k: {t: ']', s: '}'}
-  l: [cocot46p]
-- p: [2, 3]
-  k: '{'
-  l: [cocot46p]
-- p: [3, 4]
-  k: '}'
-  l: [cocot46p]
-- p: [26, 27]
-  k: (
-  l: [cocot46p]
-- p: [27, 28]
-  k: )
-  l: [cocot46p]
 - p: [38, 45]
   k: {t: origin, h: toggle}
   l: [cocot46p]
