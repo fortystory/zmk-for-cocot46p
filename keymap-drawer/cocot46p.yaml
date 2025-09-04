@@ -447,3 +447,6 @@ combos:
 - p: [38, 45]
   k: {t: cocot46p, h: toggle}
   l: [origin]
+- p: [16, 15, 14]
+  k: {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
+  l: ['12345']

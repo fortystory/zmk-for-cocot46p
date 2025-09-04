@@ -1980,6 +1980,12 @@ rect.held, rect.combo.held {
 <text x="420" y="161" class="combo tap layer-activator"><tspan style="font-size: 86%">setting</tspan></text>
 </a><text x="420" y="172" class="combo hold">toggle</text>
 </g>
+<g class="combo enter combopos-1">
+<path d="M196,89 l37,2" class="combo"/>
+<path d="M196,89 l-37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="76" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="187" y="80" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2016)" class="layer-F123">
