@@ -149,6 +149,12 @@
             key-positions = <38 45>;
             layers = <7>;
         };
+
+        combo_ctrl_enter {
+            bindings = <&kp LC(ENTER)>;
+            key-positions = <16 15 14>;
+            layers = <5>;
+        };
     };
 
     behaviors {
