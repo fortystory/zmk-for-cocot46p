@@ -39,14 +39,14 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-option$$
   - {t: _, h: '12345'}
   - {t: '$$mdi:keyboard-space$$', h: HJKL}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: '!@#$'}
   - {t: '-', h: F123, s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:volume-off$$
   HJKL:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
