@@ -409,10 +409,10 @@ combos:
   k: '&macro_arraw_eq'
   l: ['!@#$']
 - p: [26, 27, 28]
-  k: Ctl+F19
+  k: Sft+Alt+F8
   l: [cocot46p]
 - p: [2, 3, 4]
-  k: Ctl+F20
+  k: Alt+Sft+F9
   l: [cocot46p]
 - p: [31, 30]
   k: $$mdi:mouse-scroll-wheel$$
@@ -427,7 +427,7 @@ combos:
   k: Sft+$$mdi:keyboard-space$$
   l: [cocot46p]
 - p: [39, 44]
-  k: Ctl+F9
+  k: Ctl+F6
   l: [cocot46p]
 - p: [15, 40]
   k: '&macro_d_space'
