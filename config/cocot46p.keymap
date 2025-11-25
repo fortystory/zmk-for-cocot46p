@@ -70,14 +70,14 @@
             timeout-ms = <50>;
         };
 
-        combo_ctrl_f19 {
-            bindings = <&kp LC(F19)>;
+        combo_alt_shift_f8 {
+            bindings = <&kp LS(LA(F8))>;
             key-positions = <26 27 28>;
             layers = <0>;
         };
 
-        combo_ctrl_f20 {
-            bindings = <&kp LC(F20)>;
+        combo_alt_shift_f9 {
+            bindings = <&kp LA(LS(F9))>;
             key-positions = <2 3 4>;
             layers = <0>;
         };
@@ -106,8 +106,8 @@
             layers = <0>;
         };
 
-        combo_ctrl_f9 {
-            bindings = <&kp LC(F9)>;
+        combo_ctrl_f6 {
+            bindings = <&kp LC(F6)>;
             key-positions = <39 44>;
             layers = <0>;
         };
