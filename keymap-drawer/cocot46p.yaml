@@ -39,14 +39,14 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+P
   - {t: _, h: '12345'}
   - {t: '$$mdi:keyboard-space$$', h: HJKL}
   - {t: '$$mdi:keyboard-tab$$', h: LEFT WIN}
-  - {t: '$$mdi:keyboard-return$$', h: RGUI}
+  - {t: '$$mdi:keyboard-return$$', h: RIGHT WIN}
   - {t: '$$mdi:keyboard-space$$', h: '!@#$'}
   - {t: '-', h: F123, s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+$$mdi:keyboard-tab$$
   - $$mdi:volume-off$$
   HJKL:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
