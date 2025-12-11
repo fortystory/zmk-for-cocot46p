@@ -10,5 +10,4 @@ jobs:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
       # 明确指定要编译的板子和 Shield
-      board: nice_nano_v2
-      shield: cocot46p
+      board: nice_nano_v2/cocot46p
