@@ -14,8 +14,8 @@
 ---
 include:
   # zazu
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: cocot46p
     artifact-name: cocot46p
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset
