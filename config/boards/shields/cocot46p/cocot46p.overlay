@@ -97,7 +97,7 @@
 		spi-max-frequency = <4000000>;
 	    motion-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		zephyr,axis-x = <INPUT_REL_X>;
-		ephyr,axis-y = <INPUT_REL_Y>;
+		zephyr,axis-y = <INPUT_REL_Y>;
 	    /*automouse_layer*/
         /*default is <1>~<4>*/
         /*automouse-layer = <2>;*/
