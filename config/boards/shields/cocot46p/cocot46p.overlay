@@ -1,4 +1,5 @@
 #include <dt-bindings/led/led.h>
+#include <dt-bindings/input/input-event-codes.h>
 #include "cocot46p.dtsi"
 
 / {
@@ -95,15 +96,17 @@
 		reg = <0>;
 		spi-max-frequency = <4000000>;
 	    motion-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+		zephyr,axis-x = <INPUT_REL_X>;
+		ephyr,axis-y = <INPUT_REL_Y>;
 	    /*automouse_layer*/
         /*default is <1>~<4>*/
         /*automouse-layer = <2>;*/
         /*scroll_layer*/
         /*default is <1>~<4>*/
-        scroll-layers = <1>;
+        /*scroll-layers = <1>;*/
         /*snipe_layer*/
         /*default is <1>~<4>*/
-        snipe-layers = <4>;
+        /*snipe-layers = <4>;*/
 	};
 };
 
