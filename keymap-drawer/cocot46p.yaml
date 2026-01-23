@@ -39,7 +39,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - Gui+P
+  - Sft+$$mdi:keyboard-space$$
   - {t: _, h: '12345'}
   - {t: '$$mdi:keyboard-space$$', h: HJKL}
   - {t: '$$mdi:keyboard-tab$$', h: LEFT WIN}
